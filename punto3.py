@@ -22,7 +22,8 @@ print(dividir("a", 2))     # Error: entradas no numéricas → None
 
 
 
-def dividir(a, b):
+
+"""def dividir(a, b):
     try:
         # convertir a y b a float (pueden venir como str)
         a = float(a)
@@ -44,4 +45,5 @@ b = input("Ingrese el segundo número: ")
 resultado = dividir(a, b)
 
 if resultado is not None:
-    print(f"El resultado de la división es: {resultado}")
+    print(f"El resultado de la división es: {resultado}")"""
+
